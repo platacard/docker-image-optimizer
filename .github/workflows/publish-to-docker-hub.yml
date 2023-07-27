@@ -22,7 +22,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            katsuba/nx-boost
+            katsuba/image-optimizer
           tags: |
             type=ref,event=branch
             type=ref,event=pr
